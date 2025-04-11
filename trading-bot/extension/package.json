@@ -1,0 +1,12 @@
+{
+  "name": "trading-bot-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for Trading Bot",
+  "scripts": {
+    "generate-icons": "node generate_icons.js",
+    "build": "npm install && npm run generate-icons"
+  },
+  "dependencies": {
+    "canvas": "^2.11.0"
+  }
+}
