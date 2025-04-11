@@ -1,0 +1,76 @@
+[2025-04-11T04:35:07.239Z] [INFO] Daily stats reset
+[2025-04-11T04:35:07.245Z] [INFO] Trading bot server started on port 3000
+[2025-04-11T04:45:05.951Z] [INFO] Daily stats reset
+[2025-04-11T04:45:51.735Z] [INFO] Daily stats reset
+[2025-04-11T04:45:51.741Z] [INFO] Trading bot server started on port 3000
+[2025-04-11T04:54:14.660Z] [INFO] Daily stats reset
+[2025-04-11T04:55:00.192Z] [INFO] Daily stats reset
+[2025-04-11T04:55:51.482Z] [INFO] Daily stats reset
+[2025-04-11T04:55:51.490Z] [INFO] Trading bot server started on port 3000
+[2025-04-11T05:14:35.158Z] [INFO] Daily stats reset
+[2025-04-11T05:14:35.169Z] [INFO] Trading bot server started on port 3000
+[2025-04-11T05:21:51.108Z] [INFO] Daily stats reset
+[2025-04-11T05:21:51.129Z] [INFO] Trading bot server started on port 3000
+[2025-04-11T06:09:12.592Z] [INFO] Daily stats reset
+[2025-04-11T06:09:12.599Z] [INFO] Trading bot server started on port 3000
+[2025-04-11T06:10:13.323Z] [INFO] Screen analyzer initialized successfully
+[2025-04-11T06:10:13.323Z] [INFO] Bot activated
+Data: {
+  "targetUrl": "https://qxbroker.com/en/demo-trade"
+}
+[2025-04-11T07:12:46.151Z] [ERROR] Error extracting price data
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:12:46.167Z] [ERROR] Error in performAnalysis
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:12:46.168Z] [ERROR] Error during screen analysis
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:12:46.168Z] [ERROR] Error in analysis loop
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:39:35.834Z] [ERROR] Error extracting price data
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:39:35.853Z] [ERROR] Error in performAnalysis
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:39:35.854Z] [ERROR] Error during screen analysis
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
+[2025-04-11T07:39:35.854Z] [ERROR] Error in analysis loop
+Data: {
+  "error": {
+    "message": "Execution context was destroyed, most likely because of a navigation.",
+    "stack": "Error: Execution context was destroyed, most likely because of a navigation.\n    at rewriteError (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:281:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async #evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:220:60)\n    at async ExecutionContext.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)\n    at async IsolatedWorld.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)\n    at async CdpFrame.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)\n    at async CdpPage.evaluate (/project/sandbox/user-workspace/trading-bot/backend/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)\n    at async ScreenAnalyzer.extractPriceData (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:79:31)\n    at async ScreenAnalyzer.performAnalysis (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:51:31)\n    at async ScreenAnalyzer.analyzeScreen (/project/sandbox/user-workspace/trading-bot/backend/screenAnalyzer.js:38:30)"
+  }
+}
